@@ -4,7 +4,7 @@ import Button from "./Button";
 import Container from "./Container";
 import GetModal from "./GetModal";
 import ModalWindow from "./ModalWindow";
-
+import uuid from 'uuid-random';
 
 const App = () => {
     let [showModal, setShowModal] = React.useState(false)
@@ -23,8 +23,8 @@ const App = () => {
     }
     // Заполняем массив стейта по клику
     const clickHandler = (position) =>{
-        position ? setArray ([`Index: ${arrayOfItem.length+1}. Count of clicks: `, ...arrayOfItem]) :
-            setArray ([...arrayOfItem, `Index: ${arrayOfItem.length+1}. Count of clicks: `] )
+        position ? setArray ([{content:`Index: ${arrayOfItem.length+1}.Count of clicks: `, key:uuid()},...arrayOfItem]) :
+            setArray ([...arrayOfItem, {content:`Index: ${arrayOfItem.length+1}.Count of clicks: `, key:uuid()}] )
     }
     return (
         <div className="wrapper">
