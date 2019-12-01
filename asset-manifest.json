@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/reactHW5UDOT/static/css/main.0af3fdce.chunk.css",
+    "main.js": "/reactHW5UDOT/static/js/main.f9d837f9.chunk.js",
+    "runtime-main.js": "/reactHW5UDOT/static/js/runtime-main.6e404a97.js",
+    "static/js/2.939f798a.chunk.js": "/reactHW5UDOT/static/js/2.939f798a.chunk.js",
+    "index.html": "/reactHW5UDOT/index.html",
+    "precache-manifest.e20b6a8eb4cf51d7130d31d29a366f62.js": "/reactHW5UDOT/precache-manifest.e20b6a8eb4cf51d7130d31d29a366f62.js",
+    "service-worker.js": "/reactHW5UDOT/service-worker.js"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.6e404a97.js",
+    "static/js/2.939f798a.chunk.js",
+    "static/css/main.0af3fdce.chunk.css",
+    "static/js/main.f9d837f9.chunk.js"
+  ]
+}
